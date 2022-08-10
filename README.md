@@ -15,7 +15,6 @@ npm install
 npm start
 ```
 [![N|Solid](https://github.com/nabi-topdev/BTC_Predict/blob/main/Assets/Guess%20thePrice%20direction2.png)]
-https://github.com/nabi-topdev/BTC_Predict/blob/main/Assets/Guess%20thePrice%20direction1.png)
 
 ## Back-End(running on port 3000)
 
@@ -25,5 +24,10 @@ npm run start:dev
 ```
 
 ## Back-End Test(Postman)
+[![N|Solid](https://github.com/nabi-topdev/BTC_Predict/blob/main/Assets/postman-backend-test-signup.png)]
+[![N|Solid](https://github.com/nabi-topdev/BTC_Predict/blob/main/Assets/postman-backend-test-login.png)]
+[![N|Solid](https://github.com/nabi-topdev/BTC_Predict/blob/main/Assets/postman-backend-test-protected-user.png)]
+[![N|Solid](https://github.com/nabi-topdev/BTC_Predict/blob/main/Assets/postman-backend-test-logout.png)]
 
 ## MongoDB(MongoChef)
+[![N|Solid](https://github.com/nabi-topdev/BTC_Predict/blob/main/Assets/postman-backend-test-db(mongochef).png)]
