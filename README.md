@@ -2,7 +2,7 @@
 
 ## NestJS+React+MongoDB
 
-[![N|Solid](Assets/)](https://nodesource.com/products/nsolid)
+[![N|Solid](https://github.com/nabi-topdev/BTC_Predict/blob/main/Assets/Guess%20thePrice%20direction1.png)](https://nodesource.com/products/nsolid)
 
 - Type some Markdown on the left
 - See HTML in the right
