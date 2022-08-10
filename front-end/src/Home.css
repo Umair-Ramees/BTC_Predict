@@ -1,0 +1,306 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1 {
+  font-family: "Roboto";
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.timer-wrapper {
+  padding-left: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.timer {
+  font-family: "Montserrat";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  color: #aaa;
+}
+
+.value {
+  font-size: 40px;
+}
+
+.info {
+  max-width: 360px;
+  margin: 40px auto 0;
+  text-align: center;
+  font-size: 16px;
+}
+
+.button-wrapper {
+  text-align: center;
+  margin-top: 40px;
+}
+.gtp_widget {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 460px;
+  min-width: 320px;
+  padding: 20px 25px 25px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background: #23282e;
+  color: #fff;
+  font-family: IBM Plex Sans,Roboto,sans-serif;
+  font-size: 18px;
+  line-height: 1.33333;
+  font-weight: 300;
+}
+.gtp_title {
+  margin-block-end: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-family: Neue Machina,Roboto,sans-serif;
+  font-weight: 600;
+  line-height: 36px;
+}
+.gtp_instrument {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-block-end: 10px;
+}
+
+.gtp_instrument__icon {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  margin-inline-end: 12px;
+}
+
+.gtp_instrument__icon:before {
+  background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB2aWV3Qm94PScwIDAgMTAwIDEwMCcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz48Y2lyY2xlIGN4PSc1MCcgY3k9JzUwJyBmaWxsPScjZjc5MzFhJyByPSc1MCcvPjxwYXRoIGQ9J003My4xOTEgMzkuNjE5YTEyLjU4IDEyLjU4IDAgMDAtNy41MjItNi4xMDhsLTEuODYyLS41NTYgMi42MDktOC43NTUtNi42OTItMS45OTQtMi42MDcgOC43NTctNS43MTMtMS43IDIuNjA5LTguNzU3LTEuNjEyLS40OC02LjQ5NS0xLjkzMi0yLjUxMiA4LjQ0MS03LjkxMy0yLjM1Ny0yLjIzNCA3LjUgNy45MTMgMi4zNTctOC4xMyAyNy4yOTktNy45MTMtMi4zNTctMi4yMzQgNy41MDIgNy45MTMgMi4zNTUtMi4xMjIgNy4xMjUgMS42MDIuNDc1IDYuNDk1IDEuOTM2IDIuMjE2LTcuNDQxIDUuNzI3IDEuNzA2LTIuMjE2IDcuNDM5IDYuNjY0IDEuOTg3IDIuMjE2LTcuNDQyIDEuODc1LjU1OGMxLjE3Ny4zNTIgMi4zOTguNTMyIDMuNjI2LjUzNGExMi41ODkgMTIuNTg5IDAgMDA2LjAwOC0xLjUzMyAxMi41OCAxMi41OCAwIDAwNi4xMS03LjUyYy45NzYtMy4yOC41NzgtNi44MTYtMS4xMDItOS43OTdhMTIuNjIgMTIuNjIgMCAwMDYuMjgzLTcuNjA0IDEyLjU3NyAxMi41NzcgMCAwMC0uOTg3LTkuNjM4em0tNi4zMDMgMy40MTFhNS40NTcgNS40NTcgMCAwMS40MzMgNC4xODIgNS41MDMgNS41MDMgMCAwMS02LjgzNCAzLjY5OWwtMTQuMDc5LTQuMTk1IDMuMTM1LTEwLjUzMSAxNC4wODEgNC4xOTRhNS40NjQgNS40NjQgMCAwMTMuMjY0IDIuNjUxem0tNC43NTEgMjEuNTgxYTUuNDU1IDUuNDU1IDAgMDEtMi42NTEgMy4yNjYgNS40NTcgNS40NTcgMCAwMS00LjE4Mi40MzNsLTE0LjA4MS00LjE5MiAzLjEzNi0xMC41MzQgMTQuMDggNC4xOTRhNS40OTkgNS40OTkgMCAwMTMuNyA2LjgzM3onIGZpbGw9JyNmZmYnLz48L3N2Zz4=);
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.gtp_instrument__icon:after, .gtp_instrument__icon:before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.gtp_instrument__icon:after {
+  bottom: 0;
+  right: 0;
+  background-image: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyB2aWV3Qm94PScwIDAgMTAwIDEwMCcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz48cGF0aCBmaWxsPScjMUJBMjdBJyBkPSdNMTAwIDUwYzAgMjQuNDg0LTE3LjU5OCA0NC44NTctNDAuODM3IDQ5LjE2MUE1MC4wOTggNTAuMDk4IDAgMDE1MCAxMDBjLTMuNDQxIDAtNi44LS4zNDctMTAuMDQ1LTEuMDFDMTcuMTU1IDk0LjM0MSAwIDc0LjE3NCAwIDUwYzAtMTMuMzI4IDUuMjE2LTI1LjQ0MyAxMy43Mi0zNC40MDQuNDkyLS41Mi45OTYtMS4wMjkgMS41MTEtMS41MjdDMjQuMjI5IDUuMzU5IDM2LjQ4OCAwIDUwIDBjMTMuNTEyIDAgMjUuNzcyIDUuMzU5IDM0Ljc3IDE0LjA2OS4yMTIuMjA0LjQyMi40MTMuNjMuNjIxQzk0LjQyMyAyMy43MzMgMTAwIDM2LjIxNiAxMDAgNTB6Jy8+PHBhdGggZmlsbD0nI0YwRUZFQicgZD0nTTU1Ljg2NCA0MC43Nzl2LTcuMDkyaDE2Ljc4OFYyMi42NTZIMjYuNzg1djExLjAzMWgxNi43ODh2Ny4xMTljLTEzLjU2MS42ODktMjMuNzE5IDMuNTE2LTIzLjcxOSA2Ljg5OCAwIDMuMzgyIDEwLjE1OCA2LjIwOCAyMy43MTkgNi44OTh2MjIuMDk5YzIuMDc2LjQyMiA0LjIyNS42NDMgNi40MjcuNjQzIDIuMDAzIDAgMy45NjQtLjE4MyA1Ljg2NC0uNTM0VjU0LjYyOWMxMy44NDItLjYzOSAyNC4yODMtMy40OTYgMjQuMjgzLTYuOTI1cy0xMC40NDEtNi4yODYtMjQuMjgzLTYuOTI1ek01MCA1Mi4wNjNjLTE1LjEyNiAwLTI3LjM4OC0yLjI2Ny0yNy4zODgtNS4wNjMgMC0yLjM4NyA4LjkzNi00LjM4OSAyMC45NjEtNC45MjN2OC4xMDlhNDMuMzMzIDQzLjMzMyAwIDAwMTIuMjkxIDB2LTguMTMzYzEyLjMwOC40OTcgMjEuNTIzIDIuNTIyIDIxLjUyMyA0Ljk0NyAwIDIuNzk2LTEyLjI2MiA1LjA2My0yNy4zODcgNS4wNjN6Jy8+PC9zdmc+);
+}
+.gtp_instrument__icon:after, .gtp_instrument__icon:before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.gtp_refresh {
+  display: inline-block;
+  padding: 2px 12px 5px;
+  border: 1px solid #00d664;
+  border-radius: 48px
+px
+;
+  color: #00d664;
+  font-size: 18px;
+  font-family: IBM Plex Sans,Roboto,sans-serif;
+  line-height: 24px;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+}
+.gtp_instrument__item {
+  flex-grow: 1;
+}
+.gtp_instrument__name {
+  font-weight: 500;
+}
+.gtp_instrument__code {
+  color: #9fa9b0;
+  font-size: 14px;
+}
+.gtp_instrument__quote {
+  text-align: right;
+}
+.gtp_instrument__price {
+  font-weight: 500;
+}
+.gtp_instrument__change--red {
+  color: #d44c4c;
+}
+.gtp_instrument__change {
+  font-size: 14px;
+  line-height: 20px;
+}
+.gtp_game {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.gtp_chart {
+  flex-shrink: 1;
+  width: 100%;
+  padding-inline-end: 10px;
+}
+.gtp_actions {
+  flex-shrink: 0;
+  flex-basis: 130px;
+}
+
+.gtp_countdown--up {
+  color: #00d664;
+}
+.gtp_btn-up {
+  background-color: #00d664;
+}
+.gtp_btn-down {
+  background-color: #ff5050;
+}
+
+.gtp_btn-down, .gtp_btn-up {
+  width: 100%;
+  margin: 16px 0;
+  padding: 12px 15px;
+  box-sizing: border-box;
+  border-radius: 48px;
+  color: #000;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.gtp_countdown--up {
+  color: #00d664;
+}
+.gtp_countdown--down {
+  color: #ff5050;
+}
+.gtp_countdown {
+  text-align: center;
+  font-size: 42px;
+  font-family: Neue Machina,Roboto,sans-serif;
+  font-weight: 600;
+  line-height: 48px;
+}
+.gtp_countdown {
+  text-align: center;
+  font-size: 42px;
+  font-family: Neue Machina,Roboto,sans-serif;
+  font-weight: 600;
+  line-height: 48px;
+}
+.gtp_refresh-container {
+  margin-block-start: 10px;
+  line-height: 0;
+}
+.gtp_actions .gtp_refresh, .gtp_final-tip {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%);
+  padding: 12px 24px;
+  background-color: #00d664;
+  border-radius: 48px;
+  box-shadow: 0 0 100px rgb(0 0 0 / 50%);
+  color: #000;
+  font-family: IBM Plex Sans,Roboto,sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.pretty-content a {
+  display: inline;
+  background-image: linear-gradient(90deg,#0075ff 0,#0075ff 100%);
+  background-image: linear-gradient(90deg,var(--blue) 0,var(--blue) 100%);
+  background-repeat: no-repeat;
+  background-size: 0 0.075em;
+  background-position: 0 100%;
+  transition: background-size 420ms cubic-bezier(.165,.84,.44,1);
+}
+
+
+.gtp_countdown--up {
+  color: #00d664;
+}
+.gtp_countdown {
+  text-align: center;
+  font-size: 42px;
+  font-family: Neue Machina,Roboto,sans-serif;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+
+.gtp_chart svg {
+  max-width: 100%;
+  overflow: visible;
+}
+.yLabel {
+  fill: #fff;
+  font: 300 12px sans-serif;
+}
+.greyAxis {stroke: rgba(255,255,255,0.3);}
+.currentRate {fill: #000;}
+.greenAxis {stroke: #00D664;}
+.greenBet {fill: #00D664;}
+.redAxis {stroke: #FF5050;}
+.redBet {fill: #FF5050;}
