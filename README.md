@@ -24,9 +24,13 @@ npm run start:dev
 ```
 
 ## Back-End Test(Postman)
+###SignUp
 [![N|Solid](https://github.com/nabi-topdev/BTC_Predict/blob/main/Assets/postman-backend-test-signup.png)]
+###Login
 [![N|Solid](https://github.com/nabi-topdev/BTC_Predict/blob/main/Assets/postman-backend-test-login.png)]
-[![N|Solid](https://github.com/nabi-topdev/BTC_Predict/blob/main/Assets/postman-backend-test-protected-user.png)]
+###Protected
+[![N|Solid](https://github.com/nabi-topdev/BTC_Predict/blob/main/Assets/postman-backend-test-protected-users.png)]
+###Logout
 [![N|Solid](https://github.com/nabi-topdev/BTC_Predict/blob/main/Assets/postman-backend-test-logout.png)]
 
 ## MongoDB(MongoChef)
