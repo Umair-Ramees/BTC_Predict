@@ -8,7 +8,7 @@
 - See HTML in the right
 - ✨Magic ✨
 
-## Front-End(runing on port 5000)
+## Front-End(runing on port 5000) 
 
 ```sh
 npm install
