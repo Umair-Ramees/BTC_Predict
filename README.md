@@ -21,7 +21,7 @@ npm start
 ```s2
 npm install
 npm run start:dev
-```
+``` 
 
 ## Back-End Test(Postman)
 ### SignUp
